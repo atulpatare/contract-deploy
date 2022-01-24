@@ -46,7 +46,7 @@ run the script
 ```
 npm run install
 npm run index
-# this should print out counter = 1
+# this should print out counter = 0
 ```
 
 to update the counter with seth cli
@@ -56,5 +56,6 @@ seth send $DEPLOYED_CONTRACT "updateCounter()"
 
 # to read counter in cli
 seth call $DEPLOYED_CONTRACT "getCounter()"
+# now counter should be 1
 ```
 
