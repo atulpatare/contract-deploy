@@ -1,0 +1,19 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "Deployed link https://rinkeby.etherscan.io/address/0x9887fE6565392c7aaDd04A445d23EC39a893c073",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "node src/interact/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "ethers": "^5.5.3"
+  }
+}
