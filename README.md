@@ -13,6 +13,13 @@ test the contract
 dapp test
 ```
 
+to run local testnet
+```
+dapp testnet
+# this will output local testnet details
+# the ip:port and one demo account
+```
+
 add env vars
 ```
 cp .env.sample .env
@@ -50,6 +57,9 @@ npm run index
 ```
 
 to update the counter with seth cli
+- send : used when a function is state changing
+- call : used when a function doesn't involve state changing (read only)
+         no gas is required for call function
 ```
 source .env
 seth send $DEPLOYED_CONTRACT "updateCounter()"
